@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d9cabec-2712-4a89-8047-bab0a84140ad">
+  <name>Коммуналка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коммуналка</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыУслуг</content>
+  <content>InformationRegister.ЗначенияТарифов</content>
+  <content>Catalog.ШаблоныОпераций</content>
+  <content>Document.ФиксацияПоказателейКоммунальныхУслуг</content>
+  <content>AccumulationRegister.ФиксацияПоказателейКоммунальныхУслуг</content>
+  <content>InformationRegister.ФиксированныеСуммыОплатыКоммунальныхУслуг</content>
+  <content>InformationRegister.ПоказанияСчетчиков</content>
+  <content>Document.ВводНачальныхПоказаний</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>DataProcessor.Служебная</content>
+  <content>Enum.ТипУчетаУслуги</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

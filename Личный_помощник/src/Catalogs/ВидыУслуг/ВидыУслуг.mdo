@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a08661a3-d237-4826-a47b-7da003484c27">
+  <producedTypes>
+    <objectType typeId="a02cc9db-1bc5-4b19-ba2d-4f9705b6b8aa" valueTypeId="ff082c8a-eefd-42e1-9752-7002b56c0867"/>
+    <refType typeId="7991c820-4024-497f-bc99-d18648b511ff" valueTypeId="65d0b60c-0230-4d6f-81ab-11ddc6bd0cbd"/>
+    <selectionType typeId="4ebce7c2-7b19-4e94-bd9f-c3b16b21a3f1" valueTypeId="cf6d7a3d-b7cd-46cb-aa5e-1fca36f17a1e"/>
+    <listType typeId="4afaf26b-57eb-472c-8a82-0cad5db13e4a" valueTypeId="1f7a8598-f389-4c1c-ab8c-458c051d9a51"/>
+    <managerType typeId="eaa66ae5-74ec-491d-8dc2-31900d831cd7" valueTypeId="08f2b8f9-6fcb-4ef0-a1cd-e5f431615cbe"/>
+  </producedTypes>
+  <name>ВидыУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды услуг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыУслуг.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыУслуг.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9cb92cfb-fe02-4229-b2d1-4a2e74229d22">
+      <name>Водоотведение</name>
+      <description>Водоотведение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="f88d628f-d5c0-4df0-82c8-15d46b9b9bb7">
+      <name>Газ</name>
+      <description>Газ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="2f8cc416-e6c3-4cdc-a16f-88a0fa815c4a">
+      <name>ГорячаяВода</name>
+      <description>Горячая вода</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="5c77cf68-2c67-438a-ac9a-af3d009ebb69">
+      <name>Домофон</name>
+      <description>Домофон</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="bb2d44f5-141a-411d-8d68-644f8969035f">
+      <name>Интернет</name>
+      <description>Интернет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="f6ca4308-e7d3-48f3-a325-26c64823b512">
+      <name>КапитальныйРемонт</name>
+      <description>Капитальный ремонт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="b6fdf2cb-17e0-4771-b8ac-8d58aed25dab">
+      <name>Отопление</name>
+      <description>Отопление</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="a4786fa4-bb5a-42a5-a882-86525eecbbca">
+      <name>СодержаниеЖилья</name>
+      <description>Содержание жилья</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="807c60c9-2d1c-4066-8096-5e215b2db7ff">
+      <name>ХолоднаяВода</name>
+      <description>Холодная вода</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="dd17478c-1e66-4bcc-9652-04af668e3b64">
+      <name>Электроэнергия</name>
+      <description>Электроэнергия</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="07426b9b-e582-4794-aaf7-6b2276327393">
+    <name>ПоСчетчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>По счетчику</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="563f0d5e-fb29-419b-b6b1-9a9910951732">
+    <name>ФиксированнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированная сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="67888ee8-cf01-4726-8324-6161abc29488">
+    <name>ПроизвольнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольная сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="60ef9841-d651-4a8b-9d7d-856259f8a244">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <templates uuid="ee64d974-179e-4ff3-a081-476b02c328aa">
+    <name>ЗаполнениеПредопределенныхЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заполнение предопределенных элементов</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Catalog>

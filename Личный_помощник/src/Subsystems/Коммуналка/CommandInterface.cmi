@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ВводНачальныхПоказаний.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Document.ФиксацияПоказателейКоммунальныхУслуг.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.Коммуналка.Subsystem.Документы</subsystems>
+    <subsystems>Subsystem.Коммуналка.Subsystem.Отчеты</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

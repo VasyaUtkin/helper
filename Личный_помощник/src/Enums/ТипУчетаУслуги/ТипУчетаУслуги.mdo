@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df61f36b-e1d5-4f11-a2fd-2c2c07603879">
+  <producedTypes>
+    <refType typeId="ee3ef684-579c-4ad5-93b8-84ed0f350044" valueTypeId="7d1d2d32-0bdd-4f7e-ae8d-2a932edf0d96"/>
+    <listType typeId="b1687f08-527e-4389-849a-24c0f2753ba2" valueTypeId="73e99d6f-abc5-4195-b239-853ffdca8754"/>
+    <managerType typeId="3b2f1cbc-98b4-43e1-a458-f35c29d293c3" valueTypeId="4aeacb52-219f-4db2-a6bc-db2ce04e3849"/>
+  </producedTypes>
+  <name>ТипУчетаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип учета услуги</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="382ebc72-67fa-4073-9ee2-203c1422c084">
+    <name>ПоПоказаниям</name>
+    <synonym>
+      <key>ru</key>
+      <value>По показаниям</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6b3474ec-2be2-42cc-a808-0ace194a9e1c">
+    <name>Суммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суммой</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="05040bfb-e45d-4599-88b5-449518f3fc84">
+    <name>ПоПотреблению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По потреблению</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1e92d2cc-8790-4d14-8211-1095251e56d8">
+    <name>Произвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

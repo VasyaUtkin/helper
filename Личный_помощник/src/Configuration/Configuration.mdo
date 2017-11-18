@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24dedc8a-58bf-42bb-aa6c-e3e36ff7d0f1">
+  <name>ЛичныйПомощник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный помощник</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ffd327fa-7caf-475f-95f0-1f55970ca377"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f297503b-db7c-42da-91e6-efd120043156"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="537c3db1-f3f3-4333-97bc-76eb310b8606"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4661334a-2e21-4e1f-9473-0aea8fd0630d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b00318ea-5980-43f4-badb-b5b6a079ebf8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="240d9664-ede6-4808-9d97-eda9207596f7"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.9</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version>1.00</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Location</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Contacts</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Calendars</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>LocalNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Print</requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.9</compatibilityMode>
+  <languages uuid="a9cfc525-c7f9-461f-9763-dc02d40dfeeb">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Коммуналка</subsystems>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Диаграммы</commonPictures>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСОтчетами</commonModules>
+  <catalogs>Catalog.ВидыУслуг</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ШаблоныОпераций</catalogs>
+  <documents>Document.ВводНачальныхПоказаний</documents>
+  <documents>Document.ФиксацияПоказателейКоммунальныхУслуг</documents>
+  <enums>Enum.ТипУчетаУслуги</enums>
+  <dataProcessors>DataProcessor.Служебная</dataProcessors>
+  <dataProcessors>DataProcessor.Отчеты</dataProcessors>
+  <informationRegisters>InformationRegister.ЗначенияТарифов</informationRegisters>
+  <informationRegisters>InformationRegister.ФиксированныеСуммыОплатыКоммунальныхУслуг</informationRegisters>
+  <informationRegisters>InformationRegister.ПоказанияСчетчиков</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ФиксацияПоказателейКоммунальныхУслуг</accumulationRegisters>
+</mdclass:Configuration>

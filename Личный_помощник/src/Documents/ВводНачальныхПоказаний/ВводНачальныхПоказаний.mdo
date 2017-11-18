@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c9db569-4e75-4ed0-8e1a-ec241f32e478">
+  <producedTypes>
+    <objectType typeId="6483caa8-0168-4bd9-8cee-78c50d8d5423" valueTypeId="d11e424e-2bae-437d-af2a-f3632a4f8e08"/>
+    <refType typeId="75cf2377-c47a-4afe-9cd9-e7cb98a61e98" valueTypeId="f37d89b5-c968-4a8b-8450-be082fb08984"/>
+    <selectionType typeId="9270f2e4-d522-47e2-b6bf-fc1d10f92c7a" valueTypeId="87e5b5ce-22c6-49eb-a5d7-f29955ed1c7b"/>
+    <listType typeId="0ebfa1bc-c2b0-4b10-90ac-eead561200ce" valueTypeId="ea3bcd43-6e73-44ea-9ef6-7a5c3822f094"/>
+    <managerType typeId="ee9259e5-73e1-46fa-a60c-576d33e8c143" valueTypeId="3f134c1e-4d4f-4da7-8fad-02b7b918d7a2"/>
+  </producedTypes>
+  <name>ВводНачальныхПоказаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод начальных показаний</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводНачальныхПоказаний.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВводНачальныхПоказаний.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ПоказанияСчетчиков</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="3f27b8a2-b657-46a7-880c-d8f6514eed22">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

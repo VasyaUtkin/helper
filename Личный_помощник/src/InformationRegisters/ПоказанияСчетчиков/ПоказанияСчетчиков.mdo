@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11acf334-1c9f-4baa-811e-b4725b689d23">
+  <producedTypes>
+    <selectionType typeId="ea63e9c1-7bbe-481c-a1b7-f40177be3c60" valueTypeId="dcfa5155-e44e-4d58-a1b6-a7233b271d9b"/>
+    <listType typeId="1dd78ac5-f5bf-4f64-9436-bafa7040c971" valueTypeId="8832ecae-e4b5-4f15-9e4e-8485aa0fdb04"/>
+    <managerType typeId="91ac9c33-a65c-4c86-ab76-c9a803d9b893" valueTypeId="5bc24575-54f3-4eec-8d2d-89e003ef41c8"/>
+    <recordSetType typeId="dce1e76a-191e-4e99-8633-5fb388fd8feb" valueTypeId="4a95e97a-23c0-4505-876b-f6e2e13f58ab"/>
+    <recordKeyType typeId="03c18b04-6199-4c0b-a02f-0a6eae0b6c3b" valueTypeId="047088d6-6c96-4243-ac50-45f8f2aa338c"/>
+    <recordType typeId="eed93754-0d76-4287-b916-f822a83d696c" valueTypeId="a66a099c-f23e-40bd-88da-0e427c07cab7"/>
+    <recordManagerType typeId="8e8b226f-3feb-4327-b33f-3621075addf6" valueTypeId="57b37500-f7bb-40f9-b047-52f03c153b04"/>
+  </producedTypes>
+  <name>ПоказанияСчетчиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показания счетчиков</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="57acaee9-c8ac-4b7f-8048-13b0140fec82">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>8</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a08ed3b3-ce96-4ee6-bd8a-f62b9b8f8c39">
+    <name>ВидУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид услуги</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыУслуг</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

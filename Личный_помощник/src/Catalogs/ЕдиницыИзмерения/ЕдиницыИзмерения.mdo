@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be6719c2-4b0f-4b8d-9e69-ae480c1e2df8">
+  <producedTypes>
+    <objectType typeId="1c5f9119-7d21-4918-bcb5-07b01baea735" valueTypeId="276a3f10-a699-4152-8839-cd183641d8c1"/>
+    <refType typeId="d1776ef7-1311-4404-a422-b7611d376aae" valueTypeId="f9de2e74-3e6f-48c4-bf24-27f92edf2739"/>
+    <selectionType typeId="2251aa93-5b1c-404f-b78d-2cee4db070dc" valueTypeId="3153f210-1992-4245-9cfe-345dd2033f69"/>
+    <listType typeId="b2cbbd47-9372-4a4d-ac58-26cae9d97980" valueTypeId="83d151d0-6fc8-433d-a6dc-fbda0d9c7d57"/>
+    <managerType typeId="32a69095-7fe9-4efa-90df-c135aeedf062" valueTypeId="9f53435c-1d89-414f-b199-e6b67f90ca37"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЕдиницыИзмерения.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d51f374c-6599-45e2-a8c5-2a8d9001e5f9">
+    <name>УсловноеОбозначениеНациональное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условное обозначение национальное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="6ac53622-d8bc-4b81-bcac-58a597d6b0cc">
+    <name>УсловноеОбозначениеМеждународное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условное обозначение международное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="aa19ddf0-12a4-4e2b-b48c-4ce3cc363599">
+    <name>КодовоеСимвольноеОбозначениеНациональное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодовое символьное обозначение национальное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="449869c2-8e90-46dd-8f0f-13d48d137a0e">
+    <name>КодовоеСимвольноеОбозначениеМеждународное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кодовое символьное обозначение международное</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="1616d371-ce2a-456c-af39-1a27b00340af">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="799bb67a-84dc-4be3-b494-dfb719938aa5">
+    <name>КлассификаторОКЕИ_КоммунальныеУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор ОКЕИ коммунальные услуги</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:Catalog>

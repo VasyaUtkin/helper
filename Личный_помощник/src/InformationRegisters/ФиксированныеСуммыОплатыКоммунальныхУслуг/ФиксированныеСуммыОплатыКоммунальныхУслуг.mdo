@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84d0292f-367e-4e38-82ad-726fb125ee5f">
+  <producedTypes>
+    <selectionType typeId="e855b70e-3c39-4076-bf2f-34bd4ae5ddab" valueTypeId="25798c8f-19bc-45e8-b2df-34b0832a8620"/>
+    <listType typeId="d9bcf295-739f-4718-af87-5df053ca2b9f" valueTypeId="b2810e8c-8b03-4287-9044-d63ffa6081c7"/>
+    <managerType typeId="cf81258b-d4ae-4594-b74d-f13c7fe4b7fd" valueTypeId="c7bd6da2-549f-4fc6-9ea7-51d8257f376b"/>
+    <recordSetType typeId="7014f933-513c-4a29-a216-943ed5c2e2bb" valueTypeId="8c0361eb-1187-41b2-b85c-79b39ab4c9a9"/>
+    <recordKeyType typeId="12ed3ea2-9f56-4b30-845d-fe36a6a001f8" valueTypeId="8bfe10a2-f097-4a25-9b4d-40e16b3e98ae"/>
+    <recordType typeId="ce5e3265-7f18-4676-bf3b-6fd2cd56aa74" valueTypeId="3147b187-be0f-46ba-804d-f63081dffb24"/>
+    <recordManagerType typeId="db49f01b-4b03-472b-8ba3-04b66fda48fe" valueTypeId="14ce7fbe-9328-4f21-bb51-4bb90ea7189d"/>
+  </producedTypes>
+  <name>ФиксированныеСуммыОплатыКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксированные суммы оплаты коммунальных услуг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="af354f32-77d4-46a7-939f-48b9b377da85">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="608866f6-6597-4539-ba4d-4e159ca188da">
+    <name>ВидУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид услуги</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыУслуг</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

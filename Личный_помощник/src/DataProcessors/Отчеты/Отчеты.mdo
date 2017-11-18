@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e6bb970-af8d-4dfb-9cdf-73083466e53a">
+  <producedTypes>
+    <objectType typeId="e5ec727f-2390-4479-93fa-a79e26f5be59" valueTypeId="2ed23505-ff03-4fbe-9ded-40ac0c18c6d4"/>
+    <managerType typeId="14262a48-c1e0-48d2-9a00-b0ad53e86899" valueTypeId="52b2f3fe-887b-41ad-8139-cd969d68ce75"/>
+  </producedTypes>
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Отчеты.Form.ФормаВыбораОтчета</defaultForm>
+  <forms uuid="21a3d2ff-99e1-43b8-a65e-3850fac2fc00">
+    <name>ФиксацияКоммунальныхУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксация коммунальных услуг</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d02255ef-6646-4d52-bf3b-3aacabe7ad09">
+    <name>ПоказанияСчетчиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания счетчиков</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3fb2bc2d-c42c-402b-98e7-b9ddf7dce2ae">
+    <name>ФормаВыбораОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора отчета</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="13d171fa-543b-4c7b-aab1-558583d8e4c2">
+    <name>ФиксацияКоммунальныхУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксация коммунальных услуг</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6a5b7fd8-aa47-41f2-95b9-85f5186636aa">
+    <name>ПоказанияСчетчиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания счетчиков</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

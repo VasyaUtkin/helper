@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3496931a-c233-4675-8378-9f47ce1339b2">
+  <producedTypes>
+    <objectType typeId="d0fdf955-efec-41db-8301-06958bc78849" valueTypeId="bbe1ff8f-0a68-459e-8603-ad7a73cb3720"/>
+    <refType typeId="7d750c25-9590-4f3c-819c-805803cc4f67" valueTypeId="366b5d40-02a6-4747-b1e3-a1768c3f1e0c"/>
+    <selectionType typeId="b418516c-3f2d-4f53-ada1-279a282c7eea" valueTypeId="aaf050ae-68cb-4510-92ce-c0c4757ce485"/>
+    <listType typeId="13674c98-f75f-4012-bf59-5581ae5d15db" valueTypeId="8c11b2e1-93a7-4617-a944-7093c70b7751"/>
+    <managerType typeId="66f2c9c1-e27c-4242-8843-df7fefad2c47" valueTypeId="1cbed142-1726-424d-835b-ffaa121d07f3"/>
+  </producedTypes>
+  <name>ШаблоныОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны операций</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ШаблоныОпераций.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ШаблоныОпераций.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ШаблоныОпераций.Form.ФормаСписка</defaultListForm>
+  <tabularSections uuid="03e8c41e-34c0-4c7e-89c1-5b3f69bfc6d0">
+    <producedTypes>
+      <objectType typeId="be4bf40d-c8c2-4e31-b66f-c286d4f2dd50" valueTypeId="3cb5fff3-463d-4dfc-84c1-aab75a34f7bb"/>
+      <rowType typeId="c03585ca-677e-4a22-9e78-fc0b91816e6a" valueTypeId="2fe769ef-92f9-4ac0-a04e-8923b2b55125"/>
+    </producedTypes>
+    <name>Операции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="8d9eec52-1f29-4af3-896d-937b9496b5f9">
+      <name>ТипУчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип учета</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ТипУчетаУслуги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="77febd26-27d3-4173-8677-7959ed309905">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВидыУслуг</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="b7ca64d2-1f69-4dd3-8fff-e3723ce5734b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

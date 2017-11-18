@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="141b655e-4971-4114-a2a6-e397cd138506">
+  <producedTypes>
+    <selectionType typeId="fa36ef96-444b-4db0-a6e5-1f171d7de1e4" valueTypeId="83576e07-a0c7-4141-8f54-3c6dc52f99bb"/>
+    <listType typeId="84c9dcca-ab48-4d9a-8e4a-d154e88e89de" valueTypeId="8b14a8ae-34d8-4213-815b-3294ce65009b"/>
+    <managerType typeId="001fbe20-4e7e-4fbb-b6d9-7cc5cf2142a8" valueTypeId="4b8ad10f-fd53-402c-8096-a0f8e0671a2e"/>
+    <recordSetType typeId="39fc3154-f4ea-4f67-b699-835b6a7f5ee0" valueTypeId="fffe8d5e-1315-4ee2-8f26-3e329affd7b0"/>
+    <recordKeyType typeId="fc7773d2-3fd1-4690-a1de-6ad65e5bfee4" valueTypeId="24403724-a61d-4070-8608-1a92d28809f9"/>
+    <recordType typeId="fae400ad-29e1-45f1-b986-7d3a23d42c92" valueTypeId="1c9f06d6-932a-4481-a2ab-6c78051d8d99"/>
+  </producedTypes>
+  <name>ФиксацияПоказателейКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксация показателей коммунальных услуг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="a2ab5681-0f70-4794-aff9-d1af249aadfd">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="5a444edf-2f5a-48bf-9a15-d4093d8293f1">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="030a8972-c374-4f79-bf05-714d85a1fbeb">
+    <name>ВидУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид услуг</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ВидыУслуг</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

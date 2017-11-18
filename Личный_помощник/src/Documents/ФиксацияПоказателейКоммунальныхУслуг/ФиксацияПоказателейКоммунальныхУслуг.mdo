@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ec4540-57a1-4b08-b7aa-98cee0062b4c">
+  <producedTypes>
+    <objectType typeId="0e856e93-1371-4c52-99eb-50f2a11f9544" valueTypeId="548937ee-28ca-48f3-b74c-4d5a8429eac2"/>
+    <refType typeId="8060b536-a20d-4fa1-adea-31358ab438dd" valueTypeId="2a4d0861-c770-40e8-ad97-5d569caf14b1"/>
+    <selectionType typeId="13ff5230-051a-4f3a-bd0a-da5e7b550393" valueTypeId="afa5ee60-721c-47d0-8e0d-f6123108ac36"/>
+    <listType typeId="353db1cd-63fc-41bc-ac32-3a1809f578ea" valueTypeId="6f9e26de-0d79-4aa6-8027-b60e0ef683c9"/>
+    <managerType typeId="986bfcb1-41f2-4fcb-bcc5-d8cf70ac6bff" valueTypeId="0d994834-dfae-4129-a5de-80412d612730"/>
+  </producedTypes>
+  <name>ФиксацияПоказателейКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксация показателей коммунальных услуг</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ФиксацияПоказателейКоммунальныхУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ФиксацияПоказателейКоммунальныхУслуг.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.ПоказанияСчетчиков</registerRecords>
+  <registerRecords>AccumulationRegister.ФиксацияПоказателейКоммунальныхУслуг</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="939e842e-baf0-41df-9e87-5eb0de0f8fb4">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ШаблоныОпераций</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fb5bcab9-ef03-4c07-b91d-de456deffc94">
+    <name>МесяцОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц оплаты</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="668ad20a-df03-4388-894e-cdd77e19aa15">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2e455a34-3535-4b55-bcd4-b5e21f37193b">
+    <producedTypes>
+      <objectType typeId="04886724-0855-4386-84e7-f2de9776d1be" valueTypeId="3c242ae4-298b-49b3-a6be-7cc129863b07"/>
+      <rowType typeId="d037b1bf-e4a5-4b30-824b-6d20509d8e8e" valueTypeId="0f11520b-2163-4df5-8989-069d50a26d00"/>
+    </producedTypes>
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+    <comment></comment>
+    <attributes uuid="d815b3e4-de09-45ad-aac0-1fe4b41d32e3">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>CatalogRef.ВидыУслуг</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1099b837-6c45-4b06-9cb1-d98ef886b444">
+      <name>ТекущееПоказаниеСчетчика</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущее показание счетчика</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f3e68ca3-b91b-4ab2-8754-1ba16c8024ab">
+      <name>ПотребляемоеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Потребляемое значение</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>14</precision>
+          <scale>6</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b293e2ba-da42-4b55-98ef-aded3d4d743a">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>18</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2da234a1-7812-4bd7-8164-8e9391d3361c">
+      <name>ТипУчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип учета</value>
+      </synonym>
+      <comment></comment>
+      <type>
+        <types>EnumRef.ТипУчетаУслуги</types>
+      </type>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
